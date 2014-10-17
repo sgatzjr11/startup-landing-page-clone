@@ -87,6 +87,79 @@ Buttons
     text-align: center;
     margin-top: 1em;
 }
+.introduction .half {
+    width: 46%;
+    padding: 0 0.94rem;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+.half.learn {
+    text-align: right;
+}
+.half.watch {
+    text-align: left;
+    padding: 1rem 0.94rem;
+    font-weight: 300;
+}
+.introduction .watch img {
+    position: relative;
+    top: 0.625rem;
+    margin-right: 5px;
+}
+
+/**
+ * Bouncing Arrow
+ */
+.introduction {
+    position: relative;
+}
+.bouncing-arrow {
+    position: absolute;
+    height: 5.625rem;
+    bottom: 0;
+    width: 3.250rem;
+    left: 50%;
+    z-index: 1000;
+    margin-left: -1.625rem;
+}
+.bouncing-arrow img {
+    -webkit-animation: bounce 1.2s ease-in-out infinite alternate;
+    animation: bounce 1.2s ease-in-out infinite alternate;
+}
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes bounce {
+    0%, 100% {margin-top: 0px;}
+    50% {margin-top: 2rem;}
+}
+/* Standard syntax */ 
+@keyframes bounce {
+    0%, 100% {margin-top: 0px; }
+    50% {margin-top: 2rem;}
+}
+
+
+/*
+ button
+ */
+button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+
 
 
 
