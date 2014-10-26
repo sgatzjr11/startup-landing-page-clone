@@ -260,15 +260,20 @@ cases section
 {
     color: black;
 }
+
+.icons{
+    margin-bottom: 10px;
+}
 .social .icons > li {
-    border-radius: 1.25rem;
-    width: 2.5rem;
-    height: 1rem;
+    width:50px;
+    height:14px;
+    border-radius:50px;
+    text-align:center;
     display: inline-block;
-    margin: 1.25rem 5px;
     border: 1px solid #838994;
-    padding: 0.625rem 0;
     text-align: center;
+    margin-top: 10px;
+    padding: 18px 0;
 }
 .social .icons > li:hover {
     cursor: pointer;
@@ -283,10 +288,12 @@ cases section
     color: #3f729b;
 }
 .social .copy {
+
     font-size: 0.9rem;
     font-weight: 300;
     color: #838994;
 }
+
 
 
 
