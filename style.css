@@ -15,6 +15,10 @@ body{
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 1;
 }
 .top-navigation > .content {
     height: 70px;
@@ -109,12 +113,13 @@ Buttons
     margin-right: 5px;
 }
 
-/**
- * Bouncing Arrow
- */
 .introduction {
     position: relative;
 }
+/**
+ * Bouncing Arrow
+ */
+
 .bouncing-arrow {
     position: absolute;
     height: 5.625rem;
@@ -139,6 +144,45 @@ Buttons
     50% {margin-top: 2rem;}
 }
 
+/**
+ * Buynow
+ */
+.buynow{
+    background-image: url('buy-now-bg.jpg');
+    background-size: cover;
+    min-height: 850px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+.leftcontent{
+    text-align: left;
+    margin-top: 8em;
+    margin-left: 8em;
+    width: 23em;
+}
+
+.leftcontent h3{
+    text-align: left;
+    font-weight: 300;
+    font-size: 2.5em;
+    color: #f15a29;
+}
+
+.leftcontent p{
+    font-weight: 300;
+    font-size: 1.5em;
+    color: black;
+    margin-top: .8em;
+    margin-bottom: .3em;
+    word-spacing: .1em;
+    line-height: 1.3em;
+}
+
+.buy-button{
+    margin-top: 2em;
+}
 
 /*
  button
@@ -197,6 +241,52 @@ cases section
 }
 
 
+/**
+ * Footer
+ */
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+
+.social .content > h5
+{
+    color: black;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 1rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #838994;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
 
 
 
